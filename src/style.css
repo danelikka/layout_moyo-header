@@ -14,9 +14,17 @@ body {
 
   height: 60px;
   padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo__image {
+  display: block;
+  width: 40px;
   height: 40px;
 }
 
